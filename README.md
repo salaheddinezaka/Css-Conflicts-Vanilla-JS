@@ -8,6 +8,8 @@ This challenge have three parts:
 ## Building Template:
 Here's a simple Mockup the we will need you to build it pixel perfect and it should be responsive and please follow the exact fonts, size and weight. this template should be built inside codePen and share the link within your repo README
 
+Mockup url: https://xd.adobe.com/spec/dc26c0e1-4c08-4e4f-56b3-d6324d16fd5a-aa17/specs/
+
 ## Fixing CSS conflicts
 when starting this create-react-app you'll see one of template render late by random seconds, we would like you to fix CSS issue that prevent the offers from showing the same as the image below without loosing responsiveness
 
