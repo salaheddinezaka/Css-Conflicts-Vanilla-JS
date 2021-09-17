@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react'
+import './App.css'
+import Offers from './offers'
 
 function App() {
+  const [showOffers, setShowOffers] = useState(false)
+  useEffect(() => {
+    const randomInterval = setInterval(() => {
+      clearInterval(randomInterval)
+      setShowOffers(true)
+    }, Math.random() * 5000 + 1000)
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="wrap">
+        <div className="logo">
+          <img src="/img/logo.png" alt="logo" />
+        </div>
+        <div className="headline">
+          <div className="row">
+            <div className="col-sm-12">
+              <h1>Your Weekday Source for Todays TOP News</h1>
+              <h3>We feed you the news so you dont have to.</h3>
+            </div>
+          </div>
+          {showOffers && <Offers />}
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
