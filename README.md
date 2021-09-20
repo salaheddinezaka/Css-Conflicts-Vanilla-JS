@@ -14,7 +14,7 @@ Below we have provided a mockup that we need you to follow the steps below in or
 Mockup url: https://xd.adobe.com/spec/dc26c0e1-4c08-4e4f-56b3-d6324d16fd5a-aa17/specs/
 
 ## Fixing CSS conflicts
-When starting this create-react-app, you'll see one of the template rendered late by random seconds, and we would like you to fix the CSS issue that prevents the offers from showing the same as the image below without losing responsiveness.
+When starting this create-react-app, you'll see one of the template rendered late by random seconds, and we would like you to fix the CSS issue that prevents the offers from showing the same as the image below without losing responsiveness. (Note: do not update the HTML (JSX) work only on CSS files)
 
 ### Desktop:
 ![screenshot-localhost_3001-2021 09 17-18_19_46](https://user-images.githubusercontent.com/74684711/133832200-7253d4e1-9a80-45d0-8dcf-99e9cc8b3a07.png)
