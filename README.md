@@ -3,7 +3,7 @@
 
 1. This challenge is to fix the CSS issues that prevent the actual listings from being rendered correctly, as you may see that the container of the page is making the listings take less width/space. You need to update CSS files in order to have the listings showed the same way as the below screenshot for both Mobile and Desktop. **(Note: do not update the HTML (JSX) work only on CSS files)**
 
-2. Also this challenge is for add new line called **NMLS# 174457** into the list of features for second item in the listings, use only Vanilla Javascript in the index file of the public directory, Note: the listings are taking random seconds to be displayed, you should wait for the listings to show and add that line
+2. Also this challenge is for add new line called **Fifteen minutes could save you 15% or more on car insurance** into the list of features for second item in the listings, use only Vanilla Javascript in the index file of the public directory, Note: the listings are taking random seconds to be displayed, you should wait for the listings to show and add that line
 
 
 ### Desktop:
