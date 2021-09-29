@@ -3,7 +3,7 @@
 
 1. This challenge is to fix the CSS issues that prevent the actual listings from being rendered correctly, as you may see that the container of the page is making the listings take less width/space. You need to update CSS files in order to have the listings showed the same way as the below screenshot for both Mobile and Desktop. **(Note: do not update the HTML (JSX) work only on CSS files)**
 
-2. Also this challenge is for add new line called **Fifteen minutes could save you 15% or more on car insurance** into the list of features for second item in the listings, use only Vanilla Javascript in the index file of the public directory, Note: the listings are taking random seconds to be displayed, you should wait for the listings to show and add that line
+2. Also this challenge is add new line **Fifteen minutes could save you 15% or more on car insurance** into the list of features for the second item in the listings. Use only Vanilla Javascript in the index.html file of the public directory, Note: the listings take random seconds to be displayed. You should wait for the listings to show and add that line
 
 
 ### Desktop:
@@ -17,7 +17,7 @@
 ## Instructions
 How to attempt this challenge:
 1) Create a new repo in your account and note the git url
-2) Clone this repo
+2) Clone this repo (**Do not fork!**)
 3) Solve the challenge
 4) Set your new repo as the origin: `git remote set-url origin ${your repo url}`
 5) Push your solution to your repo
