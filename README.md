@@ -3,7 +3,7 @@
 
 1. This challenge is to fix the CSS issues that prevent the actual listings from being rendered correctly, as you may see that the container of the page is making the listings take less width/space. You need to update CSS files in order to have the listings showed the same way as the below screenshot for both Mobile and Desktop. **(Note: do not update the HTML (JSX) work only on CSS files)**
 
-2. Also, this challenge is add the new line: **Fifteen minutes could save you 15% or more on car insurance** into the list of features for the second item in the listings. Use only Vanilla Javascript in the index.html file of the public directory, Note: the listings take random seconds to be displayed. It should add that line after all listings are ready to be displayed.
+2. Also, this challenge is to add the new line: **Fifteen minutes could save you 15% or more on car insurance** into the list of features for the second item in the listings. Use only Vanilla Javascript in the index.html file of the public directory. Note: the listings take random seconds to be displayed. It should add that line after all listings are ready to be displayed.
 
 
 ### Desktop:
